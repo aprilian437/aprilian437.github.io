@@ -1,0 +1,384 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 80%;
+    margin : 0 auto;
+    padding-left : 15px;
+    padding-right : 15px;
+}
+
+.container1 {
+    width: 80%;
+    margin : 0 auto;
+    padding-left : 15px;
+    padding-right : 15px;
+}
+
+.top {
+    background-image: url(welcomeee.jpeg);
+    background-position: center;
+    background-size: cover;
+    color :white;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 230px;
+}
+
+.top h1 {
+    font-size: 50px;
+    text-shadow: 2px 2px 6px black;
+    line-height: 30px;
+}
+
+.tombol a {
+    background-color: black;
+    padding: 30px 60px;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+.tombol {
+    margin-top: 80px;
+}
+
+nav {
+    background-color: teal;
+    height: 80px;
+    position: sticky;
+    top: 0;
+}
+
+.nav-kanan {
+    float :right;
+}
+
+.nav-kanan a {
+    color : white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px;
+    line-height: 70px;
+    font-size: 20px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+
+}
+
+.nav-kanan a:hover:hover {
+    font-size: 25px;
+}
+
+.nav-kiri {
+    float: left;
+}
+
+.nav-kiri i {
+    font-size: 60px;
+    margin-left: 70px;
+    line-height: 70px;
+    color: white;
+}
+
+
+.nav-kiri i:hover {
+    font-size: 70px;
+}
+
+.tentang-saya {
+    text-align: center;
+}
+
+.gambar1 img {
+    border-radius: 50%;
+    height: 300px;
+    width: 200px;
+}
+
+.text p {
+    text-align: justify;
+    font-size: 20px ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.kritik {
+    text-align: center;
+}
+
+.form {
+    font-size: 15px;
+}
+
+.media-so {
+    text-align: center;
+}
+
+.simbol {
+    font-size: 150px;
+}
+
+.text {
+    text-align: justify;
+}
+
+
+
+
+footer {
+    background-color: teal;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 100px;
+}
+
+.konten a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.konten a:hover {
+    font-size: 25px;
+    margin-left: -40px;
+}
+
+.konten {
+    width: 10%;
+    float: left;
+    margin-left: 180px;
+}
+
+.konten i {
+    font-size: 50px;
+    padding-left: 30px;
+}
+
+.konten p {
+    font-size: 10px;
+}
+
+.konten h3 {
+    margin-left: -40px;
+}
+
+.tombol2 {
+    font-size: 20px;
+    color: black;
+
+}
+
+/*tandaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1000px) {
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;    
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    .container {
+        width: 80%;
+        margin : 0 auto;
+        padding-left : 15px;
+        padding-right : 15px;
+    }
+    
+    .container1 {
+        width: 80%;
+        margin : 0 auto;
+        padding-left : 15px;
+        padding-right : 15px;
+    }
+    
+    .top {
+        background-image: url(welcomeee.jpeg);
+        background-position: center;
+        background-size: cover;
+        color :white;
+        text-align: center;
+        padding-top: 250px;
+        padding-bottom: 230px;
+    }
+    
+    .top h1 {
+        font-size: 30px;
+        text-shadow: 2px 2px 6px black;
+        line-height: 30px;
+    }
+    
+    .tombol a {
+        background-color: black;
+        padding: 30px 60px;
+        color: white;
+        text-decoration: none;
+        border-radius: 15px;
+        font-size: 30px;
+    }
+    
+    .tombol {
+        margin-top: 80px;
+    }
+    
+    nav {
+        background-color: teal;
+        height: 80px;
+        position: sticky;
+        top: 0;
+    }
+    
+    .nav-kanan {
+        float :right;
+    }
+    
+    .nav-kanan a {
+        color : white;
+        text-decoration: none;
+        font-weight: bold;
+        margin-right: 30px;
+        line-height: 70px;
+        font-size: 10px;
+        box-sizing: border-box;
+        text-transform: uppercase;
+    
+    }
+    
+    .nav-kanan a:hover:hover {
+        font-size: 15px;
+    }
+    
+    .nav-kiri {
+        float: left;
+    }
+    
+    .nav-kiri i {
+        font-size: 60px;
+        margin-left: 70px;
+        line-height: 70px;
+        color: white;
+    }
+    
+    
+    .nav-kiri i:hover {
+        font-size: 70px;
+    }
+    
+    .tentang-saya {
+        text-align: center;
+    }
+    
+    .gambar1 img {
+        border-radius: 50%;
+        height: 300px;
+        width: 200px;
+    }
+
+    
+    .text p {
+        text-align: justify;
+        font-size: 20px ;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+    
+    .kritik {
+        text-align: center;
+    }
+    
+    .form {
+        font-size: 15px;
+    }
+    
+    .media-so {
+        text-align: center;
+    }
+    
+    .simbol {
+        font-size: 150px;
+    }
+    
+    .text {
+        text-align: justify;
+    }
+
+    #area {
+        height: 100px;
+        width: 200px;
+    }
+    
+    
+    
+    
+    footer {
+        background-color: teal;
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: 100px;
+    }
+    
+    .konten a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .konten a:hover {
+        font-size: 15px;
+        margin-left: -40px;
+    }
+    
+    .konten {
+        width: 10%;
+        float: left;
+        margin-left: 100px;
+    }
+    
+    .konten i {
+        font-size: 50px;
+        padding-left: 30px;
+    }
+
+    .konten img {
+        height: 40px;
+        width: 40px;
+
+    }
+    
+    .konten p {
+        font-size: 10px;
+    }
+    
+    .konten h3 {
+        margin-left: -80px;
+    }
+    
+    .tombol2 {
+        font-size: 20px;
+        color: black;
+    
+    }
+}
